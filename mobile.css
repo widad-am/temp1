@@ -1,0 +1,280 @@
+ 
+ 
+ nav ul li:first-child ,
+ nav ul li:nth-child(2) 
+{
+    margin-left: 25px;
+
+}
+ 
+nav ul li:nth-child(3) 
+{
+   margin-left: 131px;
+
+}
+
+nav .forms
+{
+     display:  flex;
+     margin-left: 400px;
+    flex-direction: column;
+     justify-content: flex-end;
+    margin-top: 400px;
+    position: absolute;
+    z-index: 1;
+
+ 
+ }
+ nav .forms i
+{
+    margin-top: 20px;
+    color: #faaf38;
+}
+ nav .logo
+{
+    margin-left: 188px;
+    position: absolute;
+}
+
+.AFB .search
+{
+    display: none;
+}
+.front-page .first-page 
+{
+    display: flex; 
+   
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}
+.AFB
+{
+    width: 100%;
+    height: 10%;
+   
+}
+.front-page .first-page  .container 
+{
+    width: 100%;
+    height: 90%;
+}
+.front-page .first-page  .container .bleur
+{
+    width: 60%;
+    height:60%;
+    top: 37%;
+    position: absolute;
+    margin-left: -240px;
+}
+.front-page .first-page  .container .back,
+.front-page .first-page  .container .front
+{
+    width: 60%;
+    height: 85%;   
+    margin-left: -240px;
+    top: 30%;
+    position: absolute;
+}
+.front-page .first-page  .container,.AFB
+{
+    flex: 2;
+}
+.AFB span
+{
+   display: none;
+}
+.AFB h1
+{
+    position: absolute;
+    font-size: 200%;
+    color: #ffdcc4;
+    left: 25%;
+     top: 10%;
+   
+  
+}
+.AFB h1::before,.AFB h1::after
+{
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #faaf38;
+    left: -58px;
+    top: 10%;
+    position: absolute;
+}
+.AFB h1::after
+{
+ left:230px;
+ top: 75%;
+ position: absolute;
+}
+/* about */
+.about
+{
+    width: 100%;
+    flex-direction: column;
+    height: 210vh;
+    margin-top: -50px;
+}
+.about .container 
+{
+flex-direction: column;
+flex-wrap: wrap;
+height: 200vh;
+width: 100%; 
+position: absolute;
+} 
+.about .container .info
+{
+    width: 100%;
+
+}
+.about .container .pictures,
+.about .container .info,.frm
+{
+    flex:2;
+}
+.about .container .pictures
+{
+ 
+    width: 100%;
+   
+    margin-top: -350px;
+}
+ 
+.frm{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 50px;
+}
+.about .pictures .img1  
+{
+    width:190px ;
+    height: 180px;
+    right: 20px;
+   top: 50px;
+    
+}
+.about .pictures .img2
+{
+    width:110px;
+    height: 280px;
+   
+
+    right: 70px;   
+     bottom: 210px;
+}
+.about .pictures .img3 
+{
+    width:230px ;
+    height:200px;
+ 
+ left: 20px;
+ top: 50px;
+}
+.about .pictures .img4 
+{
+  
+    width:230px ;
+    height:220px;
+    left: 30px;   
+    bottom: 210px;
+
+ 
+}
+.about .pictures .s1
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 230px;   
+    top: 280px;
+    transform: rotate(45deg);
+   
+    border: 2px solid #faaf38;
+    
+}
+.galery
+{  width: 100%;
+    margin:0px auto ;
+    margin-top: -50px;
+    border-radius: none;
+
+}
+.galery .boxs
+{  
+    
+    margin-left: -165vw;
+   
+    
+}
+.team .box
+{
+    margin: 10px  auto;
+   width: 100%;
+   height: 300px;
+    display: flex;
+
+    
+}
+.box .div1, .box .div3 {
+    position: relative;
+    width: 30%;
+    height: 50%;
+    margin-left:2%;
+    margin-top: 70px;
+    background-size: cover;
+  
+ }
+ .box .div2 {
+       width: 30%;
+    height: 50%;
+    margin-left:2%;
+ 
+  
+ }
+ .box .back p
+{
+    padding-top: 50px; 
+}
+.contact 
+{
+    padding: 0;
+    padding-top: 30px;
+}
+.contact .container 
+{
+    width: 100%;
+    border: 2px solid seashell;
+ 
+    margin: 0 auto;
+    clip-path: polygon(0 0,42% 0, 47% 6%,52% 0,100% 0,100% 100% ,0% 100%);
+}
+.contact .container::before
+{
+    width: 4px;
+    height: 60px;
+    content: '';
+    background: seashell;
+    position: absolute;
+    margin-left: 208px;
+    margin-top: -13px;
+    transform: rotate(-30deg);
+    
+
+}
+.contact .container  .info input
+{
+    width: 30%;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold; 
+}
